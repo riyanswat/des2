@@ -100,9 +100,12 @@
       <header class="bg-slate-900 border-b border-slate-700">
         <div class="mx-auto px-6 lg:px-8">
           <div class="flex justify-between items-center py-4">
-            <a class="flex items-center space-x-2" href="index.html"
-              ><img src="logo.png" alt="Rayan Trading Logo" class="h-10"
-            /></a>
+            <a class="flex items-center space-x-2 site-logo" href="index.html">
+                <img src="logo.png" alt="Rayan Trading Logo" class="h-10">
+                <span class="site-logo-text">
+                    <span class="site-logo-text-main">Rayan</span><span class="site-logo-text-secondary">Trading</span>
+                </span>
+            </a>
             <nav class="hidden md:flex items-center space-x-8">
               <a
                 class="text-slate-300 hover:text-white transition-colors cursor-pointer"
@@ -165,7 +168,7 @@
       <section
         class="relative min-h-screen flex items-center justify-center bg-slate-900"
         style="
-          background-image: url(&quot;https://readdy.ai/api/search-image?query=Premium%20Japanese%20luxury%20car%20dealership%20showroom%20with%20sleek%20modern%20dark%20interior%20design%2C%20featuring%20high-end%20vehicles%20like%20Toyota%20Lexus%2C%20Honda%2C%20Nissan%20arranged%20elegantly%2C%20professional%20automotive%20lighting%2C%20minimalist%20Japanese%20architecture%20with%20clean%20lines%20and%20sophisticated%20atmosphere%2C%20dark%20navy%20and%20charcoal%20color%20palette%2C%20ultra-modern%20showroom%20floor%20with%20polished%20surfaces&amp;width=1920&amp;height=1080&amp;seq=hero-bg&amp;orientation=landscape&quot;);
+          background-image: url('images/hero-bg.jpg');
           background-size: cover;
           background-position: center;
         "
@@ -173,7 +176,7 @@
         <div class="absolute inset-0 bg-slate-900/80"></div>
         <div class="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-8">
           <div class="text-center">
-            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-6">
               Your Gateway to Japan’s Best Vehicles
 <!--               <span class="block text-blue-400">Car Export</span> -->
             </h1>
@@ -190,15 +193,17 @@
               professional worldwide shipping services. -->
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
+              <a
+                href="inventory.html"
                 class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors cursor-pointer whitespace-nowrap"
               >
-                View Inventory</button
-              ><button
+                View Inventory</a
+              ><a
+                href="contact.html"
                 class="border-2 border-slate-400 text-slate-300 hover:bg-slate-400 hover:text-slate-900 px-8 py-4 rounded-lg font-semibold transition-colors cursor-pointer whitespace-nowrap"
               >
                 Get Quote
-              </button>
+              </a>
             </div>
             <div
               class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 text-center"
@@ -264,11 +269,11 @@
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div
-              class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-slate-600 transition-colors"
+              class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-slate-600 transition-colors shipment-card"
             >
               <div class="aspect-[4/3] relative">
                 <img
-                  src="images/api-search-image"
+                  src="images/shipment-1.jpg"
                   alt="2019 Toyota Land Cruiser Prado"
                   class="w-full h-full object-cover object-top"
                 />
@@ -305,11 +310,11 @@
               </div>
             </div>
             <div
-              class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-slate-600 transition-colors"
+              class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-slate-600 transition-colors shipment-card"
             >
               <div class="aspect-[4/3] relative">
                 <img
-                  src="images/api-search-image"
+                  src="images/shipment-2.jpg"
                   alt="2020 Honda Civic Type R"
                   class="w-full h-full object-cover object-top"
                 />
@@ -346,11 +351,11 @@
               </div>
             </div>
             <div
-              class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-slate-600 transition-colors"
+              class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-slate-600 transition-colors shipment-card"
             >
               <div class="aspect-[4/3] relative">
                 <img
-                  src="images/api-search-image"
+                  src="images/shipment-3.jpg"
                   alt="2018 Nissan GT-R Premium"
                   class="w-full h-full object-cover object-top"
                 />
@@ -387,11 +392,11 @@
               </div>
             </div>
             <div
-              class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-slate-600 transition-colors"
+              class="bg-slate-800 rounded-lg overflow-hidden border border-slate-700 hover:border-slate-600 transition-colors shipment-card"
             >
               <div class="aspect-[4/3] relative">
                 <img
-                  src="images/api-search-image"
+                  src="images/shipment-4.jpg"
                   alt="2021 Lexus LX 570"
                   class="w-full h-full object-cover object-top"
                 />
@@ -429,11 +434,12 @@
             </div>
           </div>
           <div class="mt-12 text-center">
-            <button
+            <a
+              href="shipping.html"
               class="border-2 border-slate-600 text-slate-300 hover:bg-slate-600 hover:text-white px-8 py-4 rounded-lg font-semibold transition-colors cursor-pointer whitespace-nowrap"
             >
               View All Shipments
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -481,7 +487,7 @@
             </div>
             <div class="relative">
               <img
-                src="images/api-search-image"
+                src="images/about-facility.jpg"
                 alt="Rayan Trading Export Facility"
                 class="w-full rounded-lg object-cover object-top"
               />
@@ -495,7 +501,7 @@
               <div class="text-center">
                 <div class="relative mb-6">
                   <img
-                    src="images/api-search-image"
+                    src="images/team-1.jpg"
                     alt="Hiroshi Tanaka"
                     class="w-40 h-40 rounded-full mx-auto object-cover object-top border-4 border-slate-700"
                   />
@@ -508,7 +514,7 @@
               <div class="text-center">
                 <div class="relative mb-6">
                   <img
-                    src="images/api-search-image"
+                    src="images/team-2.jpg"
                     alt="Yuki Sato"
                     class="w-40 h-40 rounded-full mx-auto object-cover object-top border-4 border-slate-700"
                   />
@@ -519,7 +525,7 @@
               <div class="text-center">
                 <div class="relative mb-6">
                   <img
-                    src="images/api-search-image"
+                    src="images/team-3.jpg"
                     alt="Kenji Yamamoto"
                     class="w-40 h-40 rounded-full mx-auto object-cover object-top border-4 border-slate-700"
                   />
@@ -589,25 +595,25 @@
               </p>
               <div class="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://facebook.com/rayantrading"
                   class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:text-blue-400 hover:bg-slate-700 transition-colors cursor-pointer"
                   ><i
                     class="ri-facebook-fill w-5 h-5 flex items-center justify-center"
                   ></i></a
                 ><a
-                  href="#"
+                  href="https://twitter.com/rayantrading"
                   class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:text-blue-400 hover:bg-slate-700 transition-colors cursor-pointer"
                   ><i
                     class="ri-twitter-fill w-5 h-5 flex items-center justify-center"
                   ></i></a
                 ><a
-                  href="#"
+                  href="https://linkedin.com/company/rayantrading"
                   class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:text-blue-400 hover:bg-slate-700 transition-colors cursor-pointer"
                   ><i
                     class="ri-linkedin-fill w-5 h-5 flex items-center justify-center"
                   ></i></a
                 ><a
-                  href="#"
+                  href="https://instagram.com/rayantrading"
                   class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:text-blue-400 hover:bg-slate-700 transition-colors cursor-pointer"
                   ><i
                     class="ri-instagram-fill w-5 h-5 flex items-center justify-center"
@@ -677,15 +683,6 @@
                 &copy; 2024 Rayan Trading Export. All rights reserved.
               </p>
               <div class="flex space-x-6 mt-4 md:mt-0">
-                <a
-                  class="text-slate-400 hover:text-white text-sm transition-colors cursor-pointer"
-                  href="privacy.html"
-                  >Privacy Policy</a
-                ><a
-                  class="text-slate-400 hover:text-white text-sm transition-colors cursor-pointer"
-                  href="terms.html"
-                  >Terms of Service</a
-                >
               </div>
             </div>
           </div>
@@ -727,7 +724,7 @@
     <script>
       self.__next_f.push([
         1,
-        '14:{"metadata":[["$","title","0",{"children":"Readdy Site"}],["$","meta","1",{"name":"description","content":"Generated by Readdy"}]],"error":null,"digest":"$undefined"}\ne:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}\n',
+        '14:{"metadata":[["$","title","0",{"children":"Rayan Trading"}],["$","meta","1",{"name":"description","content":"Generated by Readdy"}]],"error":null,"digest":"$undefined"}\ne:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}\n',
       ]);
     </script>
     <script>

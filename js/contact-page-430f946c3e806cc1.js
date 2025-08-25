@@ -140,12 +140,12 @@
           }),
           [t, r] = (0, a.useState)(!1),
           [i, n] = (0, a.useState)(!1),
-          c = async (e) => {
-            (e.preventDefault(),
-              r(!0),
-              await new Promise((e) => setTimeout(e, 1e3)),
-              n(!0),
-              r(!1));
+          c = (t) => {
+            t.preventDefault();
+            const subject = "Contact Form Submission from " + e.name;
+            const body = `Name: ${e.name}\nEmail: ${e.email}\nPhone: ${e.phone}\nCountry: ${e.country}\nVehicle Interest: ${e.vehicleType}\nBudget: ${e.budget}\n\nMessage:\n${e.message}`.trim();
+            window.location.href = `mailto:info@japanauto-export.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            n(!0);
           },
           o = (e) => {
             s((s) => ({ ...s, [e.target.name]: e.target.value }));

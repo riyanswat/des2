@@ -1149,3 +1149,19 @@ video {
 .__variable_08b57d {
   --font-geist-mono: "Geist Mono", "Geist Mono Fallback";
 }
+
+.site-logo-text-main {
+    color: #391086;
+}
+
+.site-logo-text-secondary {
+    color: #d9141d;
+}
+
+.shipment-card {
+  transition: transform 0.2s;
+}
+
+.shipment-card:hover {
+  transform: scale(1.05);
+}
