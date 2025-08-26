@@ -1,1 +1,1 @@
-https://riyanswat.github.io/des/
+https://riyanswat.github.io/des2/
